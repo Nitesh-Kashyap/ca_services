@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parasher & Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: #f4f4f4;
+        }
+
+        header, footer {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            padding: 30px 50px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        header img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            background: rgba(0,212,255,0.2);
+            padding: 10px;
+            cursor: pointer;
+            float: left;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: 800;
+            margin: 0;
+            color: #00d4ff;
+            text-shadow: 0 0 10px rgba(0,212,255,0.6);
+        }
+
+        header .owner {
+            font-size: 0.9em;
+            color: #ccc;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1em;
+            background: rgba(255,255,255,0.05);
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 8px;
+            backdrop-filter: blur(4px);
+        }
+
+        .services {
+            padding: 50px 20px;
+            background: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d') center/cover fixed;
+            background-blend-mode: multiply;
+            background-color: rgba(0,0,0,0.3);
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,212,255,0.3);
+        }
+
+        .card i {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #00d4ff;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .card:hover i {
+            transform: scale(1.2);
+            color: #0077cc;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card p {
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        footer {
+            padding: 40px 50px;
+            text-align: center;
+        }
+
+        footer h3 {
+            margin-bottom: 15px;
+            font-weight: 700;
+            color: #00d4ff;
+        }
+
+        footer a {
+            color: #00d4ff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #fff;
+        }
+
+        .contact-icons a {
+            display: inline-block;
+            margin: 10px;
+            font-size: 1.4em;
+            color: white;
+            background: rgba(255,255,255,0.05);
+            padding: 10px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .contact-icons a:hover {
+            background: #00d4ff;
+            color: white;
+            transform: scale(1.2);
+            box-shadow: 0 0 15px rgba(0,212,255,0.7);
+        }
+
+        footer p {
+            margin: 8px 0;
+            font-size: 0.9em;
+            opacity: 0.85;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="mailto:info@parasherservices.com"><img src="cs.webp" alt="CS Logo"></a>
+        <h1>Parasher & Services</h1>
+        <div class="owner">Owned by CS Suraj Parasher</div>
+        <p>Complete Business & Legal Solutions at Your Fingertips</p>
+    </header>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="card-container">
+            <a href="gst-registration.html" target="_blank" class="card">
+                <i class="fas fa-file-invoice"></i>
+                <h3>GST Registration</h3>
+                <p>Fast and hassle-free GST registration for your business.</p>
+            </a>
+
+            <a href="gst-return.html" target="_blank" class="card">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <h3>GST Return</h3>
+                <p>Complete GST return filing and compliance support.</p>
+            </a>
+
+            <a href="iso-certification.html" target="_blank" class="card">
+                <i class="fas fa-award"></i>
+                <h3>ISO Certification</h3>
+                <p>Get internationally recognized ISO certification services.</p>
+            </a>
+
+            <a href="trademark.html" target="_blank" class="card">
+                <i class="fas fa-trademark"></i>
+                <h3>Trademark/Copyright</h3>
+                <p>Protect your brand with trademark and copyright registration.</p>
+            </a>
+
+            <a href="itr-tds.html" target="_blank" class="card">
+                <i class="fas fa-file-alt"></i>
+                <h3>ITR/TDS</h3>
+                <p>Income Tax Returns and TDS filing made easy.</p>
+            </a>
+
+            <a href="company-formation.html" target="_blank" class="card">
+                <i class="fas fa-building"></i>
+                <h3>Company Formation</h3>
+                <p>Start your business with our company formation services.</p>
+            </a>
+
+            <a href="section8-80g-12a.html" target="_blank" class="card">
+                <i class="fas fa-hand-holding-usd"></i>
+                <h3>Section 8/80G/12A</h3>
+                <p>Complete registration and compliance for charitable trusts.</p>
+            </a>
+
+            <a href="ngo-trust-society.html" target="_blank" class="card">
+                <i class="fas fa-users"></i>
+                <h3>NGO/Trust/Society</h3>
+                <p>Helping you register and manage NGOs, trusts, and societies.</p>
+            </a>
+
+            <a href="msme-registration.html" target="_blank" class="card">
+                <i class="fas fa-industry"></i>
+                <h3>MSME Registration</h3>
+                <p>Register your small or medium business under MSME.</p>
+            </a>
+
+            <a href="gem-registration.html" target="_blank" class="card">
+                <i class="fas fa-store"></i>
+                <h3>GEM Registration</h3>
+                <p>Get registered on Government e-Marketplace (GeM).</p>
+            </a>
+
+            <a href="epf-esic.html" target="_blank" class="card">
+                <i class="fas fa-user-shield"></i>
+                <h3>EPF/ESIC</h3>
+                <p>Provident Fund and Employee State Insurance compliance.</p>
+            </a>
+
+            <a href="partnership-firm.html" target="_blank" class="card">
+                <i class="fas fa-handshake"></i>
+                <h3>Partnership Firm</h3>
+                <p>Partnership firm registration and agreement drafting.</p>
+            </a>
+
+            <a href="labour-registration.html" target="_blank" class="card">
+                <i class="fas fa-id-badge"></i>
+                <h3>Labour Registration</h3>
+                <p>Labour law registration and compliance services.</p>
+            </a>
+
+            <a href="labour-licence.html" target="_blank" class="card">
+                <i class="fas fa-id-card"></i>
+                <h3>Labour Licence</h3>
+                <p>Labour licence application and renewal services.</p>
+            </a>
+
+            <a href="digital-signature.html" target="_blank" class="card">
+                <i class="fas fa-signature"></i>
+                <h3>Digital Signature (DSC)</h3>
+                <p>Secure and legal digital signature certificates.</p>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Contact Us</h3>
+        <p>Email: <a href="mailto:info@parasherservices.com">info@parasherservices.com</a></p>
+        <p>Phone: <a href="tel:+918789790170">+91 8789790170</a></p>
+
+        <div class="contact-icons">
+            <a href="https://wa.me/918789790170" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:info@parasherservices.com" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+918789790170" title="Call"><i class="fas fa-phone"></i></a>
+            <a href="https://twitter.com/YourTwitterHandle" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/YourInstagramHandle" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <p>MATHA BANDH, Assam Access Rd, Deoghar, Jharkhand 814112</p>
+        <p>This website is developed by <a href="mailto:nitesh.krjs@gmail.com">Nitesh Kashyap</a></p>
+        <p>&copy; 2025 Parasher & Services. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
